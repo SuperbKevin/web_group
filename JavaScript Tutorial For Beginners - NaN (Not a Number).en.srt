@@ -1,0 +1,612 @@
+1
+00:00:00,530 --> 00:00:05,490
+<font color="#E5E5E5">yo what's</font><font color="#CCCCCC"> going on guys</font><font color="#E5E5E5"> you're watching</font>
+
+2
+00:00:02,700 --> 00:00:06,569
+<font color="#E5E5E5">JavaScript for beginners lesson</font><font color="#CCCCCC"> 23 and</font>
+
+3
+00:00:05,490 --> 00:00:09,389
+in this<font color="#E5E5E5"> video we're going to take a</font>
+
+4
+00:00:06,569 --> 00:00:17,010
+closer<font color="#E5E5E5"> look at nan which stands</font><font color="#CCCCCC"> for not</font>
+
+5
+00:00:09,389 --> 00:00:18,420
+a<font color="#CCCCCC"> number Wow alright</font><font color="#E5E5E5"> gang so in the last</font>
+
+6
+00:00:17,010 --> 00:00:20,250
+lesson<font color="#E5E5E5"> you saw me do something like this</font>
+
+7
+00:00:18,420 --> 00:00:21,840
+we had two variables and one was a
+
+8
+00:00:20,250 --> 00:00:23,160
+string with a number inside<font color="#CCCCCC"> the string</font>
+
+9
+00:00:21,840 --> 00:00:25,830
+and the<font color="#CCCCCC"> other one was a pure number</font><font color="#E5E5E5"> and</font>
+
+10
+00:00:23,160 --> 00:00:27,300
+we loved<font color="#E5E5E5"> the addition of these together</font>
+
+11
+00:00:25,830 --> 00:00:28,859
+<font color="#E5E5E5">into the console</font><font color="#CCCCCC"> we've got something</font>
+
+12
+00:00:27,300 --> 00:00:30,390
+<font color="#CCCCCC">like this which</font><font color="#E5E5E5"> was 75</font><font color="#CCCCCC"> and what's</font>
+
+13
+00:00:28,859 --> 00:00:32,550
+happened is<font color="#CCCCCC"> it's concatenate the two</font>
+
+14
+00:00:30,390 --> 00:00:37,200
+<font color="#E5E5E5">together squash them together and given</font>
+
+15
+00:00:32,550 --> 00:00:40,620
+us a string<font color="#E5E5E5"> 75 right so what would</font>
+
+16
+00:00:37,200 --> 00:00:44,340
+<font color="#E5E5E5">happen if I did multiplication instead</font>
+
+17
+00:00:40,620 --> 00:00:45,840
+of addition<font color="#E5E5E5"> I save</font><font color="#CCCCCC"> that and refresh now</font>
+
+18
+00:00:44,340 --> 00:00:47,789
+<font color="#E5E5E5">this time we're getting</font><font color="#CCCCCC"> a number back</font>
+
+19
+00:00:45,840 --> 00:00:49,500
+<font color="#E5E5E5">it's</font><font color="#CCCCCC"> no longer</font><font color="#E5E5E5"> a string and it's</font>
+
+20
+00:00:47,789 --> 00:00:51,079
+multiplied these two<font color="#E5E5E5"> things together</font><font color="#CCCCCC"> so</font>
+
+21
+00:00:49,500 --> 00:00:53,550
+what the hell<font color="#E5E5E5"> is going on well</font>
+
+22
+00:00:51,079 --> 00:00:55,079
+<font color="#CCCCCC">javascript</font><font color="#E5E5E5"> is being useful here all</font>
+
+23
+00:00:53,550 --> 00:00:57,660
+<font color="#E5E5E5">right and it's saying well you can't</font>
+
+24
+00:00:55,079 --> 00:00:59,699
+<font color="#CCCCCC">multiply a string by a</font><font color="#E5E5E5"> number but</font>
+
+25
+00:00:57,660 --> 00:01:01,800
+because in this string I can see only a
+
+26
+00:00:59,699 --> 00:01:03,180
+<font color="#E5E5E5">number I'm going to help</font><font color="#CCCCCC"> you out</font><font color="#E5E5E5"> I'm</font>
+
+27
+00:01:01,800 --> 00:01:04,650
+going<font color="#E5E5E5"> to give you the result that you</font>
+
+28
+00:01:03,180 --> 00:01:06,600
+<font color="#E5E5E5">want</font><font color="#CCCCCC"> I'll multiply these two together</font>
+
+29
+00:01:04,650 --> 00:01:07,740
+this one time and I'll give you that
+
+30
+00:01:06,600 --> 00:01:11,040
+<font color="#E5E5E5">number</font><font color="#CCCCCC"> all</font><font color="#E5E5E5"> right so that's just</font>
+
+31
+00:01:07,740 --> 00:01:13,530
+<font color="#CCCCCC">JavaScript being helpful</font><font color="#E5E5E5"> however if we</font>
+
+32
+00:01:11,040 --> 00:01:15,180
+were to write Apple<font color="#CCCCCC"> there right</font><font color="#E5E5E5"> we can</font>
+
+33
+00:01:13,530 --> 00:01:17,369
+up times<font color="#CCCCCC"> five by Apple</font>
+
+34
+00:01:15,180 --> 00:01:19,979
+yeah we could get<font color="#E5E5E5"> five apples but that's</font>
+
+35
+00:01:17,369 --> 00:01:22,439
+not the way JavaScript works<font color="#E5E5E5"> that will</font>
+
+36
+00:01:19,979 --> 00:01:24,330
+return us<font color="#CCCCCC"> n a n which</font><font color="#E5E5E5"> stands</font><font color="#CCCCCC"> for not a</font>
+
+37
+00:01:22,439 --> 00:01:25,799
+number<font color="#CCCCCC"> it's basically saying</font><font color="#E5E5E5"> to you</font>
+
+38
+00:01:24,330 --> 00:01:28,229
+there<font color="#E5E5E5"> that look whatever you've done</font>
+
+39
+00:01:25,799 --> 00:01:30,329
+does not make sense<font color="#E5E5E5"> I can't</font><font color="#CCCCCC"> Times</font><font color="#E5E5E5"> Apple</font>
+
+40
+00:01:28,229 --> 00:01:33,150
+by five you know<font color="#E5E5E5"> go back and fix your</font>
+
+41
+00:01:30,329 --> 00:01:34,860
+<font color="#E5E5E5">code but this is also really</font><font color="#CCCCCC"> useful for</font>
+
+42
+00:01:33,150 --> 00:01:37,680
+checking<font color="#CCCCCC"> whether certain</font><font color="#E5E5E5"> values are a</font>
+
+43
+00:01:34,860 --> 00:01:39,390
+<font color="#CCCCCC">number when they should</font><font color="#E5E5E5"> be imagine this</font>
+
+44
+00:01:37,680 --> 00:01:41,729
+scenario<font color="#CCCCCC"> you've got a website and you've</font>
+
+45
+00:01:39,390 --> 00:01:44,100
+<font color="#E5E5E5">worked out the meaning of life you</font><font color="#CCCCCC"> have</font>
+
+46
+00:01:41,729 --> 00:01:46,380
+<font color="#CCCCCC">a formula that can give you</font><font color="#E5E5E5"> the meaning</font>
+
+47
+00:01:44,100 --> 00:01:48,060
+of life right<font color="#E5E5E5"> and you want users to come</font>
+
+48
+00:01:46,380 --> 00:01:50,220
+<font color="#E5E5E5">onto</font><font color="#CCCCCC"> your website</font><font color="#E5E5E5"> and enter in some</font>
+
+49
+00:01:48,060 --> 00:01:52,229
+details about themselves<font color="#E5E5E5"> like</font><font color="#CCCCCC"> that age</font>
+
+50
+00:01:50,220 --> 00:01:53,579
+and all these<font color="#E5E5E5"> details have</font><font color="#CCCCCC"> to be numbers</font>
+
+51
+00:01:52,229 --> 00:01:56,100
+because they're<font color="#E5E5E5"> going into this formula</font>
+
+52
+00:01:53,579 --> 00:01:58,469
+now<font color="#CCCCCC"> you have one particular</font><font color="#E5E5E5"> user that</font>
+
+53
+00:01:56,100 --> 00:02:01,290
+<font color="#E5E5E5">takes upon themselves to entering a word</font>
+
+54
+00:01:58,469 --> 00:02:03,299
+<font color="#E5E5E5">they're quite thick and basically</font><font color="#CCCCCC"> Hill</font>
+
+55
+00:02:01,290 --> 00:02:05,040
+<font color="#CCCCCC">height well what you're doing dude you</font>
+
+56
+00:02:03,299 --> 00:02:06,930
+meant to enter a number<font color="#E5E5E5"> so you want to</font>
+
+57
+00:02:05,040 --> 00:02:10,619
+<font color="#E5E5E5">check whether he's entered a number and</font>
+
+58
+00:02:06,930 --> 00:02:11,099
+not a word now we can<font color="#E5E5E5"> use this n</font><font color="#CCCCCC"> a n</font><font color="#E5E5E5"> to</font>
+
+59
+00:02:10,619 --> 00:02:13,680
+do that
+
+60
+00:02:11,099 --> 00:02:16,590
+<font color="#CCCCCC">all right so how would we do</font>
+
+61
+00:02:13,680 --> 00:02:19,019
+well let's say these the<font color="#CCCCCC"> values that</font>
+
+62
+00:02:16,590 --> 00:02:20,939
+he's entered<font color="#E5E5E5"> Apple and</font><font color="#CCCCCC"> five</font><font color="#E5E5E5"> and you just</font>
+
+63
+00:02:19,019 --> 00:02:23,010
+want<font color="#E5E5E5"> it to numbers so we need to do an</font>
+
+64
+00:02:20,939 --> 00:02:26,129
+if statement to<font color="#CCCCCC"> make sure that he's</font>
+
+65
+00:02:23,010 --> 00:02:28,590
+entered two numbers right so we'll just
+
+66
+00:02:26,129 --> 00:02:30,659
+<font color="#E5E5E5">first of all check that a is a number so</font>
+
+67
+00:02:28,590 --> 00:02:32,670
+we'll do our if statement this<font color="#E5E5E5"> is our</font>
+
+68
+00:02:30,659 --> 00:02:35,010
+code block and then this condition<font color="#E5E5E5"> here</font>
+
+69
+00:02:32,670 --> 00:02:37,290
+is going<font color="#E5E5E5"> to check</font><font color="#CCCCCC"> that a is in</font><font color="#E5E5E5"> fact a</font>
+
+70
+00:02:35,010 --> 00:02:39,389
+<font color="#CCCCCC">number right or rather we're going to</font>
+
+71
+00:02:37,290 --> 00:02:41,250
+check that<font color="#E5E5E5"> it's not a number and we</font><font color="#CCCCCC"> can</font>
+
+72
+00:02:39,389 --> 00:02:45,030
+do that<font color="#E5E5E5"> by using a built in function of</font>
+
+73
+00:02:41,250 --> 00:02:46,709
+JavaScript code<font color="#E5E5E5"> is n a and remember this</font>
+
+74
+00:02:45,030 --> 00:02:49,739
+stands<font color="#CCCCCC"> for not a number</font>
+
+75
+00:02:46,709 --> 00:02:52,290
+so we're saying is this<font color="#E5E5E5"> not a number and</font>
+
+76
+00:02:49,739 --> 00:02:54,510
+then<font color="#E5E5E5"> we pass</font><font color="#CCCCCC"> it in this variable here I</font>
+
+77
+00:02:52,290 --> 00:02:54,989
+<font color="#E5E5E5">actually checking whether a is not a</font>
+
+78
+00:02:54,510 --> 00:02:58,169
+number
+
+79
+00:02:54,989 --> 00:03:01,469
+so<font color="#CCCCCC"> a is not a number</font><font color="#E5E5E5"> so this will return</font>
+
+80
+00:02:58,169 --> 00:03:04,109
+<font color="#CCCCCC">true okay quite confusing at first but</font>
+
+81
+00:03:01,469 --> 00:03:07,439
+you'll get your head around it is a not
+
+82
+00:03:04,109 --> 00:03:09,689
+a number<font color="#E5E5E5"> yes it's not</font><font color="#CCCCCC"> a number so this</font>
+
+83
+00:03:07,439 --> 00:03:17,639
+will<font color="#E5E5E5"> return true so right here</font><font color="#CCCCCC"> we'll do</font>
+
+84
+00:03:09,689 --> 00:03:23,190
+something<font color="#E5E5E5"> like console.log that ain't</font>
+
+85
+00:03:17,639 --> 00:03:25,290
+even and number<font color="#E5E5E5"> 50 all right so we're</font>
+
+86
+00:03:23,190 --> 00:03:27,000
+telling<font color="#CCCCCC"> them</font><font color="#E5E5E5"> look going into a number</font>
+
+87
+00:03:25,290 --> 00:03:30,989
+instead<font color="#CCCCCC"> and we could say something like</font>
+
+88
+00:03:27,000 --> 00:03:37,849
+<font color="#E5E5E5">else and then we'll work out the meaning</font>
+
+89
+00:03:30,989 --> 00:03:37,849
+<font color="#E5E5E5">of life for them which believe</font><font color="#CCCCCC"> it or not</font>
+
+90
+00:03:38,120 --> 00:03:47,759
+is and then<font color="#E5E5E5"> we'll concatenate the result</font>
+
+91
+00:03:43,079 --> 00:03:49,139
+of a times B<font color="#E5E5E5"> all right so let's look</font>
+
+92
+00:03:47,759 --> 00:03:50,489
+<font color="#E5E5E5">through this again what we're saying is</font>
+
+93
+00:03:49,139 --> 00:03:51,989
+we've got these two variables<font color="#E5E5E5"> one of</font>
+
+94
+00:03:50,489 --> 00:03:53,639
+them is a string it's not a number and
+
+95
+00:03:51,989 --> 00:03:57,209
+the<font color="#E5E5E5"> other one is a number here we're</font>
+
+96
+00:03:53,639 --> 00:03:58,530
+<font color="#E5E5E5">checking here</font><font color="#CCCCCC"> is a not a</font><font color="#E5E5E5"> number well</font>
+
+97
+00:03:57,209 --> 00:04:00,239
+it's not<font color="#E5E5E5"> a number so this is going to</font>
+
+98
+00:03:58,530 --> 00:04:02,099
+<font color="#E5E5E5">return true so therefore we're going to</font>
+
+99
+00:04:00,239 --> 00:04:03,959
+log this to the console<font color="#E5E5E5"> that ain't even</font>
+
+100
+00:04:02,099 --> 00:04:06,659
+a<font color="#CCCCCC"> number and we</font><font color="#E5E5E5"> spelled that wrong</font><font color="#CCCCCC"> that</font>
+
+101
+00:04:03,959 --> 00:04:09,030
+<font color="#CCCCCC">ain't even a number thicky however if</font>
+
+102
+00:04:06,659 --> 00:04:11,459
+this was a<font color="#E5E5E5"> number if this was</font><font color="#CCCCCC"> five then</font>
+
+103
+00:04:09,030 --> 00:04:13,739
+<font color="#E5E5E5">this would return false and we go down</font>
+
+104
+00:04:11,459 --> 00:04:16,109
+<font color="#CCCCCC">here to</font><font color="#E5E5E5"> the else statement</font><font color="#CCCCCC"> and we'd say</font>
+
+105
+00:04:13,739 --> 00:04:18,930
+the meaning of life<font color="#E5E5E5"> is a times B very</font>
+
+106
+00:04:16,109 --> 00:04:20,280
+simple guys let's<font color="#E5E5E5"> refresh and we're</font>
+
+107
+00:04:18,930 --> 00:04:22,620
+<font color="#E5E5E5">getting this</font><font color="#CCCCCC"> message right</font><font color="#E5E5E5"> here</font><font color="#CCCCCC"> that</font>
+
+108
+00:04:20,280 --> 00:04:25,979
+ain't even a<font color="#CCCCCC"> number thicky all right so</font>
+
+109
+00:04:22,620 --> 00:04:27,990
+let's change<font color="#E5E5E5"> this</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> six and then</font>
+
+110
+00:04:25,979 --> 00:04:29,610
+<font color="#E5E5E5">finally</font>
+
+111
+00:04:27,990 --> 00:04:32,969
+the meaning of<font color="#E5E5E5"> life</font><font color="#CCCCCC"> is not for to</font><font color="#E5E5E5"> two</font>
+
+112
+00:04:29,610 --> 00:04:36,599
+guys<font color="#E5E5E5"> is 30 it says her about there okay</font>
+
+113
+00:04:32,969 --> 00:04:38,699
+so that is<font color="#E5E5E5"> na n that's how we check</font>
+
+114
+00:04:36,599 --> 00:04:40,860
+whether<font color="#CCCCCC"> something is not a</font><font color="#E5E5E5"> number and</font>
+
+115
+00:04:38,699 --> 00:04:43,020
+there<font color="#E5E5E5"> is a slightly easier</font><font color="#CCCCCC"> way to do</font>
+
+116
+00:04:40,860 --> 00:04:45,300
+<font color="#CCCCCC">this</font><font color="#E5E5E5"> all</font><font color="#CCCCCC"> round rather</font><font color="#E5E5E5"> like a the</font>
+
+117
+00:04:43,020 --> 00:04:48,060
+opposite way to do this<font color="#E5E5E5"> we've seen that</font>
+
+118
+00:04:45,300 --> 00:04:51,509
+the exclamation mark<font color="#CCCCCC"> this</font><font color="#E5E5E5"> thing here is</font>
+
+119
+00:04:48,060 --> 00:04:52,499
+the<font color="#E5E5E5"> not sign it's the negator</font><font color="#CCCCCC"> operator</font>
+
+120
+00:04:51,509 --> 00:04:54,689
+<font color="#E5E5E5">you know if we want to check something</font>
+
+121
+00:04:52,499 --> 00:04:56,039
+<font color="#CCCCCC">to equal to we say that or if I want</font><font color="#E5E5E5"> to</font>
+
+122
+00:04:54,689 --> 00:04:59,669
+<font color="#E5E5E5">check</font><font color="#CCCCCC"> something is not equal to we say</font>
+
+123
+00:04:56,039 --> 00:05:01,500
+<font color="#E5E5E5">that now we can do that right here in</font>
+
+124
+00:04:59,669 --> 00:05:03,629
+front<font color="#E5E5E5"> of this statement and this they're</font>
+
+125
+00:05:01,500 --> 00:05:05,580
+my friends becomes a double negative
+
+126
+00:05:03,629 --> 00:05:09,060
+<font color="#E5E5E5">all right this gets a little bit</font>
+
+127
+00:05:05,580 --> 00:05:13,529
+confusing<font color="#E5E5E5"> now we say it is a not a</font>
+
+128
+00:05:09,060 --> 00:05:15,509
+number not or<font color="#E5E5E5"> basically</font><font color="#CCCCCC"> we want</font><font color="#E5E5E5"> to check</font>
+
+129
+00:05:13,529 --> 00:05:18,659
+that<font color="#CCCCCC"> a is a number</font><font color="#E5E5E5"> all right so this</font>
+
+130
+00:05:15,509 --> 00:05:22,830
+basically<font color="#E5E5E5"> reverses this statement so</font>
+
+131
+00:05:18,659 --> 00:05:24,000
+this will now be<font color="#E5E5E5"> false okay</font><font color="#CCCCCC"> I know</font>
+
+132
+00:05:22,830 --> 00:05:25,349
+that's hard to<font color="#CCCCCC"> get your</font><font color="#E5E5E5"> head</font><font color="#CCCCCC"> around</font><font color="#E5E5E5"> it</font>
+
+133
+00:05:24,000 --> 00:05:27,330
+<font color="#E5E5E5">and it gets a</font><font color="#CCCCCC"> little bit confusing but</font>
+
+134
+00:05:25,349 --> 00:05:31,610
+believe me<font color="#CCCCCC"> if we put that symbol there</font>
+
+135
+00:05:27,330 --> 00:05:35,219
+we're saying okay is a not a number<font color="#E5E5E5"> well</font>
+
+136
+00:05:31,610 --> 00:05:37,080
+if we<font color="#E5E5E5"> put a word in here then that would</font>
+
+137
+00:05:35,219 --> 00:05:39,360
+<font color="#CCCCCC">be true because</font><font color="#E5E5E5"> a is not a number and</font>
+
+138
+00:05:37,080 --> 00:05:41,189
+then we're<font color="#CCCCCC"> putting the negator</font><font color="#E5E5E5"> operating</font>
+
+139
+00:05:39,360 --> 00:05:43,500
+in front of it so<font color="#CCCCCC"> we're reversing that</font>
+
+140
+00:05:41,189 --> 00:05:47,460
+we're<font color="#E5E5E5"> saying it not true which is false</font>
+
+141
+00:05:43,500 --> 00:05:54,509
+<font color="#CCCCCC">okay so then we can switch these</font><font color="#E5E5E5"> around</font>
+
+142
+00:05:47,460 --> 00:05:57,180
+<font color="#E5E5E5">if we wanted</font><font color="#CCCCCC"> to like this and that one</font>
+
+143
+00:05:54,509 --> 00:05:58,409
+there there now<font color="#E5E5E5"> technically there's no</font>
+
+144
+00:05:57,180 --> 00:06:00,389
+real difference<font color="#E5E5E5"> in the way we've done</font>
+
+145
+00:05:58,409 --> 00:06:02,729
+<font color="#CCCCCC">this it's</font><font color="#E5E5E5"> just</font><font color="#CCCCCC"> that sometimes we don't</font>
+
+146
+00:06:00,389 --> 00:06:04,199
+<font color="#E5E5E5">have an else statement we just have the</font>
+
+147
+00:06:02,729 --> 00:06:08,430
+if statement<font color="#E5E5E5"> and we want to put the</font>
+
+148
+00:06:04,199 --> 00:06:09,689
+outcome here<font color="#E5E5E5"> all right</font><font color="#CCCCCC"> whoo so if you</font>
+
+149
+00:06:08,430 --> 00:06:10,979
+have any questions about this whatsoever
+
+150
+00:06:09,689 --> 00:06:12,719
+feel free to comment<font color="#E5E5E5"> down below</font>
+
+151
+00:06:10,979 --> 00:06:16,259
+<font color="#E5E5E5">otherwise if you</font><font color="#CCCCCC"> enjoyed these videos</font>
+
+152
+00:06:12,719 --> 00:06:19,669
+please share subscribe or like I'll see
+
+153
+00:06:16,259 --> 00:06:19,669
+you<font color="#E5E5E5"> guys in the next one</font>
+
