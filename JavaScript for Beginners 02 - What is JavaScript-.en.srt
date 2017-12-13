@@ -1,0 +1,368 @@
+1
+00:00:00,430 --> 00:00:04,899
+<font color="#E5E5E5">yo what's going on guys you're watching</font>
+
+2
+00:00:02,620 --> 00:00:09,839
+<font color="#E5E5E5">JavaScript for beginners</font><font color="#CCCCCC"> in lesson two</font>
+
+3
+00:00:04,899 --> 00:00:09,839
+<font color="#E5E5E5">what is JavaScript</font><font color="#CCCCCC"> that's</font><font color="#E5E5E5"> coming up</font><font color="#CCCCCC"> ah</font>
+
+4
+00:00:12,250 --> 00:00:17,110
+<font color="#CCCCCC">alright so</font><font color="#E5E5E5"> javascript is one of the</font>
+
+5
+00:00:14,469 --> 00:00:19,420
+three core languages of<font color="#CCCCCC"> websites now the</font>
+
+6
+00:00:17,110 --> 00:00:21,640
+first one is HTML<font color="#CCCCCC"> we've already seen</font>
+
+7
+00:00:19,420 --> 00:00:24,760
+that it controls the structure of<font color="#E5E5E5"> your</font>
+
+8
+00:00:21,640 --> 00:00:27,190
+web page via HTML tags<font color="#E5E5E5"> the second one is</font>
+
+9
+00:00:24,760 --> 00:00:28,870
+CSS and this is more to do<font color="#E5E5E5"> with the</font>
+
+10
+00:00:27,190 --> 00:00:31,750
+presentation<font color="#E5E5E5"> and design</font><font color="#CCCCCC"> of your</font><font color="#E5E5E5"> website</font>
+
+11
+00:00:28,870 --> 00:00:35,530
+<font color="#CCCCCC">so you can</font><font color="#E5E5E5"> change colors or change the</font>
+
+12
+00:00:31,750 --> 00:00:38,589
+layout<font color="#CCCCCC"> of your HTML in CSS and the third</font>
+
+13
+00:00:35,530 --> 00:00:39,910
+one is JavaScript<font color="#CCCCCC"> and JavaScript is</font>
+
+14
+00:00:38,589 --> 00:00:41,920
+responsible for<font color="#CCCCCC"> adding additional</font>
+
+15
+00:00:39,910 --> 00:00:44,320
+behavior<font color="#CCCCCC"> and</font><font color="#E5E5E5"> interactivity to</font><font color="#CCCCCC"> your</font>
+
+16
+00:00:41,920 --> 00:00:46,809
+website<font color="#E5E5E5"> to</font><font color="#CCCCCC"> make it</font><font color="#E5E5E5"> more interesting</font><font color="#CCCCCC"> so</font>
+
+17
+00:00:44,320 --> 00:00:48,820
+say for example<font color="#CCCCCC"> you had a</font><font color="#E5E5E5"> website with</font><font color="#CCCCCC"> a</font>
+
+18
+00:00:46,809 --> 00:00:50,859
+gallery<font color="#E5E5E5"> on and in that</font><font color="#CCCCCC"> gallery</font><font color="#E5E5E5"> you want</font>
+
+19
+00:00:48,820 --> 00:00:53,980
+users to<font color="#E5E5E5"> be</font><font color="#CCCCCC"> able</font><font color="#E5E5E5"> to click to zoom in and</font>
+
+20
+00:00:50,859 --> 00:00:55,839
+out of your images<font color="#E5E5E5"> if you</font><font color="#CCCCCC"> wanted to do</font>
+
+21
+00:00:53,980 --> 00:01:00,789
+<font color="#CCCCCC">that then</font><font color="#E5E5E5"> you my friends would</font><font color="#CCCCCC"> probably</font>
+
+22
+00:00:55,839 --> 00:01:02,469
+need<font color="#CCCCCC"> JavaScript to do it now javascript</font>
+
+23
+00:01:00,789 --> 00:01:04,660
+is a scripting<font color="#CCCCCC"> language and</font><font color="#E5E5E5"> many</font>
+
+24
+00:01:02,469 --> 00:01:06,640
+<font color="#E5E5E5">programmers will just disregard it as a</font>
+
+25
+00:01:04,660 --> 00:01:09,030
+scripting<font color="#E5E5E5"> language</font><font color="#CCCCCC"> not</font><font color="#E5E5E5"> a programming</font>
+
+26
+00:01:06,640 --> 00:01:11,530
+<font color="#CCCCCC">language and by that they mean it's</font>
+
+27
+00:01:09,030 --> 00:01:13,090
+intentionally<font color="#E5E5E5"> limited it doesn't have</font>
+
+28
+00:01:11,530 --> 00:01:16,240
+the same features as other programming
+
+29
+00:01:13,090 --> 00:01:17,980
+languages<font color="#E5E5E5"> such as C sharp C++ or Java</font><font color="#CCCCCC"> in</font>
+
+30
+00:01:16,240 --> 00:01:20,980
+there it can't communicate with
+
+31
+00:01:17,980 --> 00:01:24,340
+databases<font color="#CCCCCC"> directly or file systems on a</font>
+
+32
+00:01:20,980 --> 00:01:27,000
+computer<font color="#E5E5E5"> among other things</font><font color="#CCCCCC"> however</font><font color="#E5E5E5"> its</font>
+
+33
+00:01:24,340 --> 00:01:30,100
+intended purpose was to<font color="#E5E5E5"> add</font>
+
+34
+00:01:27,000 --> 00:01:34,260
+interactivity<font color="#E5E5E5"> and to manipulate</font><font color="#CCCCCC"> webpages</font>
+
+35
+00:01:30,100 --> 00:01:37,750
+and for that my friends it's magnificent
+
+36
+00:01:34,260 --> 00:01:39,550
+now<font color="#E5E5E5"> javascript is a client-side language</font>
+
+37
+00:01:37,750 --> 00:01:42,490
+<font color="#CCCCCC">and essentially what that</font><font color="#E5E5E5"> means</font><font color="#CCCCCC"> is that</font>
+
+38
+00:01:39,550 --> 00:01:45,850
+<font color="#E5E5E5">it runs on</font><font color="#CCCCCC"> your computer in your browser</font>
+
+39
+00:01:42,490 --> 00:01:48,100
+<font color="#CCCCCC">ok so when you type in a URL into your</font>
+
+40
+00:01:45,850 --> 00:01:50,380
+browser<font color="#E5E5E5"> that communicates with a server</font>
+
+41
+00:01:48,100 --> 00:01:52,540
+<font color="#CCCCCC">it gets the information from the server</font>
+
+42
+00:01:50,380 --> 00:01:54,370
+<font color="#E5E5E5">which brings it back to</font><font color="#CCCCCC"> your</font><font color="#E5E5E5"> computer in</font>
+
+43
+00:01:52,540 --> 00:01:56,380
+the browser<font color="#E5E5E5"> and displays it to you in</font>
+
+44
+00:01:54,370 --> 00:01:59,320
+the form<font color="#E5E5E5"> of a web page</font><font color="#CCCCCC"> and that my</font>
+
+45
+00:01:56,380 --> 00:02:02,230
+friends is<font color="#CCCCCC"> a combination of HTML CSS and</font>
+
+46
+00:01:59,320 --> 00:02:04,240
+probably<font color="#E5E5E5"> JavaScript so all of those</font>
+
+47
+00:02:02,230 --> 00:02:06,420
+three<font color="#E5E5E5"> run on your browser on your</font>
+
+48
+00:02:04,240 --> 00:02:10,119
+<font color="#E5E5E5">computer</font><font color="#CCCCCC"> that's what it's meant by a</font>
+
+49
+00:02:06,420 --> 00:02:11,739
+client-side language this is different
+
+50
+00:02:10,119 --> 00:02:14,050
+<font color="#CCCCCC">from other programming languages such</font><font color="#E5E5E5"> as</font>
+
+51
+00:02:11,739 --> 00:02:17,020
+Ruby<font color="#E5E5E5"> on Rails PHP and ASP</font>
+
+52
+00:02:14,050 --> 00:02:19,180
+on there<font color="#E5E5E5"> they all run on a server so if</font>
+
+53
+00:02:17,020 --> 00:02:21,430
+you go<font color="#E5E5E5"> to a website running one</font><font color="#CCCCCC"> of these</font>
+
+54
+00:02:19,180 --> 00:02:23,260
+technologies<font color="#E5E5E5"> you're typing the URL</font>
+
+55
+00:02:21,430 --> 00:02:25,510
+<font color="#E5E5E5">communicate</font><font color="#CCCCCC"> with the server</font><font color="#E5E5E5"> the code</font>
+
+56
+00:02:23,260 --> 00:02:27,070
+will run<font color="#E5E5E5"> on the server</font><font color="#CCCCCC"> and then send the</font>
+
+57
+00:02:25,510 --> 00:02:29,950
+results of<font color="#CCCCCC"> that code to your web browser</font>
+
+58
+00:02:27,070 --> 00:02:32,200
+<font color="#CCCCCC">where it's displayed in a webpage</font><font color="#E5E5E5"> so</font>
+
+59
+00:02:29,950 --> 00:02:34,480
+javascript is<font color="#E5E5E5"> client-side other</font>
+
+60
+00:02:32,200 --> 00:02:37,330
+programming languages are<font color="#E5E5E5"> server-side</font><font color="#CCCCCC"> I</font>
+
+61
+00:02:34,480 --> 00:02:39,930
+would say also not to rely on JavaScript
+
+62
+00:02:37,330 --> 00:02:42,130
+<font color="#E5E5E5">to add functionality to</font><font color="#CCCCCC"> your</font><font color="#E5E5E5"> website now</font>
+
+63
+00:02:39,930 --> 00:02:45,460
+<font color="#CCCCCC">imagine you had a website</font><font color="#E5E5E5"> and it sold</font>
+
+64
+00:02:42,130 --> 00:02:47,440
+<font color="#CCCCCC">out in sanh line if you were to add some</font>
+
+65
+00:02:45,460 --> 00:02:50,170
+kind<font color="#E5E5E5"> of behavior</font><font color="#CCCCCC"> to that website</font><font color="#E5E5E5"> which</font>
+
+66
+00:02:47,440 --> 00:02:51,670
+relied on<font color="#CCCCCC"> JavaScript for example a user</font>
+
+67
+00:02:50,170 --> 00:02:53,950
+couldn't add an item to<font color="#E5E5E5"> their shopping</font>
+
+68
+00:02:51,670 --> 00:02:57,250
+<font color="#CCCCCC">basket without JavaScript enabled then</font>
+
+69
+00:02:53,950 --> 00:02:58,420
+that website is not very good you want
+
+70
+00:02:57,250 --> 00:03:00,760
+to make a website<font color="#CCCCCC"> and it's</font><font color="#E5E5E5"> going to be</font>
+
+71
+00:02:58,420 --> 00:03:02,380
+accessible<font color="#CCCCCC"> to everyone regardless of</font>
+
+72
+00:03:00,760 --> 00:03:05,200
+whether they're<font color="#CCCCCC"> using javascript or not</font>
+
+73
+00:03:02,380 --> 00:03:07,120
+so make it<font color="#CCCCCC"> without JavaScript</font><font color="#E5E5E5"> first make</font>
+
+74
+00:03:05,200 --> 00:03:09,850
+sure<font color="#E5E5E5"> it runs completely fine on its own</font>
+
+75
+00:03:07,120 --> 00:03:11,650
+and then add<font color="#CCCCCC"> javascript to</font><font color="#E5E5E5"> it to give it</font>
+
+76
+00:03:09,850 --> 00:03:15,760
+that magic touch and the added
+
+77
+00:03:11,650 --> 00:03:17,710
+interactivity and finally I'm<font color="#CCCCCC"> going</font><font color="#E5E5E5"> to</font>
+
+78
+00:03:15,760 --> 00:03:20,560
+say<font color="#E5E5E5"> this javascript is not and has</font>
+
+79
+00:03:17,710 --> 00:03:22,180
+<font color="#E5E5E5">nothing to do with Java Java is a</font>
+
+80
+00:03:20,560 --> 00:03:24,310
+<font color="#E5E5E5">completely separate language and</font>
+
+81
+00:03:22,180 --> 00:03:27,040
+<font color="#CCCCCC">JavaScript is just a name that was given</font>
+
+82
+00:03:24,310 --> 00:03:28,959
+to<font color="#CCCCCC"> it while Java was really popular so</font>
+
+83
+00:03:27,040 --> 00:03:30,580
+they jumped<font color="#E5E5E5"> on that bandwagon</font><font color="#CCCCCC"> the</font>
+
+84
+00:03:28,959 --> 00:03:32,709
+official name for javascript is Atma
+
+85
+00:03:30,580 --> 00:03:35,920
+<font color="#E5E5E5">script but we all refer</font><font color="#CCCCCC"> to it as</font>
+
+86
+00:03:32,709 --> 00:03:37,720
+<font color="#E5E5E5">JavaScript so that's about it for this</font>
+
+87
+00:03:35,920 --> 00:03:39,130
+introduction<font color="#E5E5E5"> to JavaScript to hope now</font>
+
+88
+00:03:37,720 --> 00:03:41,860
+you've got a broad view<font color="#CCCCCC"> of</font><font color="#E5E5E5"> what it is</font>
+
+89
+00:03:39,130 --> 00:03:43,900
+<font color="#E5E5E5">and</font><font color="#CCCCCC"> what I can do in the</font><font color="#E5E5E5"> next lesson</font>
+
+90
+00:03:41,860 --> 00:03:46,060
+we're going<font color="#E5E5E5"> to start using it to create</font>
+
+91
+00:03:43,900 --> 00:03:48,630
+our<font color="#CCCCCC"> first JavaScript program</font>
+
+92
+00:03:46,060 --> 00:03:48,630
+I'll see you<font color="#E5E5E5"> guys</font>
+
