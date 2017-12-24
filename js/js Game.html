@@ -1,0 +1,61 @@
+<html>
+<head>
+<title> aaaa </title>
+<noscript>
+	Warning - JavaScript is Disabled.
+	
+	For full functionality of this page, it is necessary to enable JavaScript.
+</noscript>
+
+<script language='JavaScript' type='text/JavaScript'>
+
+	var myTime = null;
+    var xSantaClaus  = 0;
+    var ySantaClaus  = 0;
+
+    function Timer() { //up date loop for game
+		//get current position
+		var xS = document.getElementById('s').offsetTop;
+		var yS = document.getElementById('s').offsetLeft;
+		if(xS < 0){ x = 0; }
+		if(xS > 800){ x = 800; }
+
+		//realize the movement
+		if(ySantaClaus ==5){ yS += ySantaClaus; }
+		else if(ySantaClaus > 0){ yS = yS - 1; ySantaClaus--; }
+        xS += xSantaClaus;
+
+		//update the position
+        document.getElementById('s').style.top = xS + "px";
+        document.getElementById('s').style.left = yS + "px";
+
+        myTime=setTimeout('Timer()',10);
+    }
+
+    function Move(e){ // movement of the Santa Claus
+        if(e.keyCode == 37){ xSantaClaus = 2; }// move to the left
+        if(e.keyCode == 39){ xSantaClaus = -2; }// move to the right
+        if(e.keyCode == 38){ ySantaClaus = 5; }// jump
+    }
+
+    function Start(){
+
+        document.getElementById('s').style.left= "100px";
+        document.getElementById('s').style.top= "200px";
+        // Add an event listener to the keypress event.
+        document.addEventListener("keydown", Move, false);
+
+        Timer();
+    }
+
+
+</script>
+</head>
+<body>
+<div id="msg">
+    <img id="s" src="../img/BananaMan.jpg" style="position: absolute; width: 200px; top: 400px; left: 400px">
+    <input type=button onClick=Start() value='Start'>
+</div>
+
+</body>
+</html>
